@@ -1,20 +1,8 @@
-function chunkArrayInGroups(arr, size) {
-  let a = [];
-  let b = [];
-  let c;
-
-  do {
-    for (let i = 0; i < size; i++) {
-      c = arr.shift();
-      if (c == undefined) {
-        continue;
-      }
-      b.push(c);
-    }
-    a.push(b);
-    b = [];
-  } while (arr.length != 0);
-  return a;
+function splitify(str) {
+  // Only change code below this line
+  let a = str.split(/\W|_/g);
+  let b = a.join(" ");
+  return b;
+  // Only change code above this line
 }
-
-console.log(chunkArrayInGroups([0, 1, 2, 3, 4, 5, 6, 7, 8], 2));
+console.log(splitify("May-the-force-be-with-you"));

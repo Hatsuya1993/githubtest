@@ -1,0 +1,44 @@
+* {
+    font-family: 'Josefin Sans',
+        sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f7d794;
+}
+
+.survey {
+    background-color: tomato;
+    margin: 30px 50px;
+    padding: 20px 30px;
+    border-radius: 20px;
+    border: 1px solid #ffffff;
+}
+
+.personal {
+    margin-top: 10px;
+}
+
+fieldset {
+    padding: 10px 0 10px 20px;
+    border-color: #ffffff;
+}
+
+.check {
+    margin-top: 10px;
+}
+
+.political {
+    margin-top: 10px;
+}
+
+.essay {
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+}

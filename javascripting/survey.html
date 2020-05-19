@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="/javascripting/survey.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="/javascripting/fontawesome-free-5.13.0-web/css/all.min.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- While Survey Form -->
+    <div class="survey">
+        <header>
+            <h1>Application For Permission To Date My Daughter</h1>
+            <p style="margin-top: 20px;">Note: Form is to be completed at least 21 days prior to date</p>
+        </header>
+        <!-- Personal Details -->
+        <div class="personal">
+            <fieldset>
+                <legend>Personal Details</legend>
+                <div>
+
+                    <label for="name">Name:</label>
+                    <input required style="margin-top: 20px;" placeholder="Enter name here" type="text" id="name"
+                        name="name">
+                </div>
+                <div>
+                    <label for="address">Address:</label>
+                    <input style="margin-top: 20px;" placeholder="Enter address here" type="text" id="address"
+                        name="address">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input style="margin-top: 20px;" placeholder="Enter email here" type="text" id="email" name="email">
+                </div>
+                <div>
+                    <label for="phone">Phone Number:</label>
+                    <input style="margin-top: 20px;" placeholder="Enter 10 digit number" type="text" id="phone"
+                        name="phone">
+                </div>
+                <div>
+                    <label for="iq">IQ:</label>
+                    <input style="margin-top: 20px;" placeholder="Enter IQ here" type="text" id="iq" name="iq">
+                </div>
+                <div>
+                    <p style="margin-top: 20px;">Gender</p>
+                    <input checked style="margin-top: 20px;" id="Male" type="radio" name="gender" value="Male">
+                    <label for="Male">Male</label><br>
+                </div>
+                <div>
+                    <input id="Female" type="radio" name="gender" value="Female">
+                    <label for="Female">Female</label><br>
+                </div>
+                <div>
+                    <input id="Other" type="radio" name="gender" value="Other">
+                    <label for="Other">Other</label><br>
+                </div>
+                <div>
+                    <label for="Date">Date of Proposed Outing:</label>
+                    <input style="margin-top: 20px;" placeholder="mm/dd/yyyy" type="Date" id="Date" name="Date">
+                </div>
+            </fieldset>
+        </div>
+        <!-- End of personal details -->
+        <!-- Check all that apply -->
+        <div class="check">
+            <fieldset>
+                <p>Check All That Apply</p>
+                <div>
+                    <label for="loving"><input style="margin-top: 20px;" id="loving" type="checkbox" name="personality">
+                        I have tattoos and/or piercings</label>
+                </div>
+                <div>
+                    <label for="loving"><input id="loving" type="checkbox" name="personality">
+                        I am more than 2 years older than my daughter</label>
+                </div>
+                <div>
+                    <label for="panel"><input id="panel" type="checkbox" name="panel">
+                        I own a panel van or V8 ute</label>
+                </div>
+                <div>
+                    <label for="work"><input checked id="work" type="checkbox" name="work">
+                        I work full-time</label>
+                </div>
+                <div>
+                    <label for="rich"><input checked id="rich" type="checkbox" name="rich">
+                        My parents are rich</label>
+                </div>
+                <div>
+                    <label for="public"><input checked id="public" type="checkbox" name="public">
+                        Is the date at a well lit public location</label>
+                </div>
+            </fieldset>
+        </div>
+        <!-- End of Check all that apply -->
+        <!-- Start of Political Persuation -->
+        <div class="political">
+            <fieldset>
+                <div>
+                    <label for="Political ">Political Persuasion: <select id="Political " name="Political ">
+                            <option value="volvo">Left Wing</option>
+                            <option value="saab">Right Wing</option>
+                            <option value="fiat">Convservative</option>
+                            <option value="audi">Nazi</option>
+                        </select></label>
+                    <label for="Education  ">Education Level Completed: <select id="Education  " name="Education  ">
+                            <option value="volvo">University</option>
+                            <option value="saab">College</option>
+                            <option value="fiat">High School</option>
+                            <option value="audi">None</option>
+                        </select></label>
+                </div>
+            </fieldset>
+        </div>
+        <!-- End of Political Persuation -->
+        <!-- Start Of Essay Section -->
+        <div class="essay">
+            <fieldset>
+                <legend>Essay Section</legend>
+                <p>In 50 words or more explain why you want to date my daughter</p>
+                <div>
+                    <input placeholder="Enter Text Here" style="margin-top: 10px;" type="text">
+                </div>
+                <p style="margin-top: 10px;">Please upload contact details for 2 references</p>
+                <div>
+                    <input placeholder="Enter Text Here" style="margin-top: 10px;" type="text">
+                </div>
+                <p style="margin-top: 10px;">Upload Police Clearance Certificate, Bank Statement and Medical </p>
+
+                <label for="button">Certifiates here: <button style="margin-top: 10px;" id="button" type="submit">Attach
+                        Files</button></label>
+
+            </fieldset>
+        </div>
+        <!-- End of Essay -->
+        <footer>
+            <div> <button style="margin-top: 10px;" id="button" type="submit">Send Your Application</button></label>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

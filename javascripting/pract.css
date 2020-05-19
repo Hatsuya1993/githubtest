@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+
+}
+
+.top {
+    background-color: green;
+    display: flex;
+
+}
+
+.middle {
+    background-color: blueviolet;
+    display: flex;
+}
+
+.container {
+    margin: 100px auto;
+    min-width: 800px;
+    max-width: 980px;
+    width: 1000px;
+}

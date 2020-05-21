@@ -9,20 +9,75 @@ body {
 
 }
 
+
+
+img {
+    width: 100%;
+    height: 200px;
+}
+
 .top {
-    background-color: green;
+
     display: flex;
+    justify-content: space-between;
 
 }
 
 .middle {
-    background-color: blueviolet;
     display: flex;
+    justify-content: space-between;
+
+}
+
+@media (min-width: 800px) and (max-width: 1199px) {
+    body {
+        background-color: violet;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        background-color: teal;
+    }
+}
+
+@media (max-width: 650px) {
+    .top {
+        flex-direction: column;
+    }
+
+    .middle {
+        flex-direction: column;
+    }
+
+    .top1 {
+        width: 100%
+    }
+
+    .top2 {
+        width: 100%;
+    }
+
+    .top3 {
+        width: 100%;
+    }
+
+    .middle1 {
+        width: 100%;
+    }
+
+    .middle2 {
+        width: 100%;
+    }
 }
 
 .container {
     margin: 100px auto;
     min-width: 800px;
-    max-width: 980px;
-    width: 1000px;
+    max-width: 1200px;
+    width: 95%;
+}
+
+p {
+    margin-top: 10px;
 }

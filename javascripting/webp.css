@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Chelsea Market',
+        cursive;
+
+}
+
+.container-top {
+    background-color: #30336b;
+    padding: 50px 0;
+}
+
+.container-top-title {
+    /* min-width: 600px;
+    max-width: 1000px; */
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.container-middle {
+    background-color: #dff9fb;
+    padding: 15% 0;
+}
+
+.container-middle-content {
+    max-width: 1000px;
+    min-width: 600px;
+    width: 50%;
+    margin: 0 auto;
+    border: 5px solid turquoise;
+}
+
+.container-middle-content-img {
+    width: 50%;
+    height: 400px;
+    margin: 10px 0;
+}
+
+.container-bottom {
+    padding: 15% 0;
+    background-color: tomato;
+}
+
+.container-bottom-content {
+    background-color: thistle;
+    width: 50%;
+    margin: 0 auto;
+}

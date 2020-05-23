@@ -1,0 +1,407 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bitter',
+        serif;
+    font-size: 30px;
+}
+
+/* Container Top */
+
+.container-top {
+    background-color: #1e272e;
+    /* padding: 10px 0; */
+    position: fixed;
+    width: 100%;
+}
+
+.container-top-content nav ul {
+    display: flex;
+    list-style-type: none;
+    /* justify-content: space-evenly; */
+    width: 100%;
+    color: #f5f6fa;
+    max-width: 1000px;
+    min-width: 600px;
+}
+
+@media (max-width: 900px) {
+    .container-top-content nav ul {
+        flex-direction: column;
+        text-align: center;
+
+    }
+}
+
+.container-top-content1 {
+    padding: 10px 30px;
+}
+
+.container-top-content2 {
+    padding: 10px 30px;
+}
+
+.container-top-content3 {
+    padding: 10px 30px;
+}
+
+.container-top-content4 {
+    padding: 10px 30px;
+}
+
+.container-top-content5 {
+    padding: 10px 30px;
+}
+
+.container-top-content1:hover,
+.container-top-content2:hover,
+.container-top-content3:hover,
+.container-top-content4:hover,
+.container-top-content5:hover {
+    background-color: #b2bec3;
+    cursor: pointer;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1e272e;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    /* padding: 12px 16px; */
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #f5f6fa;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.dropdown-content p:hover {
+    background-color: #b2bec3;
+    padding: 20px 20px;
+    cursor: pointer;
+
+}
+
+@media (max-width : 900px) {
+    .dropdown-content {
+        width: 100%;
+    }
+}
+
+/* End Container Top */
+/* Container Img */
+.container-img-content {
+    width: 100%;
+
+}
+
+.container-img-content-img {
+    width: 100%;
+    height: 900px;
+
+}
+
+/* End of Container Img */
+
+/* Container Intro */
+
+.container-intro {
+    background-color: white;
+    width: 100%;
+
+}
+
+.container-intro-content {
+    width: 60%;
+    margin: 0 auto;
+    padding: 150px 0;
+    text-align: center;
+}
+
+.container-intro-content h1 {
+    font-size: 2em;
+}
+
+.container-intro-content p {
+    font-size: 0.8em;
+    margin: 30px 0;
+}
+
+.container-intro-img {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-intro-img1 img {
+    height: 300px;
+    width: 80%;
+}
+
+
+.container-intro-img2 img {
+    height: 300px;
+    width: 80%;
+
+}
+
+.container-intro-img3 img {
+    height: 300px;
+    width: 80%;
+
+}
+
+@media (max-width: 900px) {
+    .container-intro-img {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* End Container Intro */
+
+/* Start of Travel Dates */
+
+.container-dates {
+    width: 100%;
+    background-color: #1e272e;
+}
+
+.container-dates-content {
+    width: 100%;
+    background-color: #1e272e;
+    padding: 150px 0;
+    text-align: center;
+    color: white;
+
+}
+
+.container-dates-content h1 {
+    font-size: 2em;
+}
+
+.container-dates-content p {
+    margin: 30px 0;
+    font-size: 1em;
+}
+
+/* End of Travel Dates */
+
+/* Start of container dates */
+
+.container-dates-img {
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+
+}
+
+.container-dates-img1 {
+    width: 25%;
+    background-color: white;
+    color: #1e272e;
+    margin: 10px auto;
+    min-width: 350px;
+
+}
+
+.container-dates-img1 img {
+    height: 300px;
+    width: 100%;
+}
+
+.container-dates-img1 img:hover,
+.container-dates-img2 img:hover,
+.container-dates-img3 img:hover {
+    opacity: 0.8;
+}
+
+.container-dates-img1 button {
+    font-size: 20px;
+    background-color: #1e272e;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    margin: 0 50% 5% 0%;
+}
+
+
+.container-dates-img2 {
+    width: 25%;
+    background-color: white;
+    color: #1e272e;
+    margin: 10px auto;
+    min-width: 350px;
+
+}
+
+.container-dates-img2 img {
+    height: 300px;
+    width: 100%;
+
+}
+
+.container-dates-img2 button {
+    font-size: 20px;
+    background-color: #1e272e;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    margin: 0 50% 5% 0%;
+}
+
+.container-dates-img3 {
+    width: 25%;
+    background-color: white;
+    color: #1e272e;
+    margin: 10px auto;
+    min-width: 350px;
+
+}
+
+.container-dates-img3 img {
+    height: 300px;
+    width: 100%;
+
+}
+
+.container-dates-img3 button {
+    font-size: 20px;
+    background-color: #1e272e;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    margin: 0 50% 5% 0%;
+}
+
+.container-dates-img1 button:hover,
+.container-dates-img2 button:hover,
+.container-dates-img3 button:hover {
+    background-color: #b2bec3;
+    color: #1e272e;
+    cursor: pointer;
+}
+
+
+@media (max-width: 900px) {
+    .container-dates-img {
+        flex-direction: column;
+    }
+}
+
+/* End of container dates */
+
+/* Start container-contact */
+
+.container-contact {
+    width: 100%;
+}
+
+.container-contact-content {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 150px 0;
+
+}
+
+.container-contact-content1 {
+    font-size: 2em;
+}
+
+.container-contact-content2 {
+    font-size: 1em;
+
+}
+
+.container-contact-content-num1-1,
+.container-contact-content-num1-2,
+.container-contact-content-num1-3 {
+    font-size: 0.8em;
+    margin: 10px 0;
+}
+
+.container-contact-content-num-box input {
+    font-size: 0.8em;
+}
+
+.container-contact-content-num {
+    display: flex;
+    width: 70%;
+    margin: 30px auto;
+    justify-content: space-between;
+
+}
+
+@media (max-width: 900px) {
+    .container-contact-content-num {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+.container-contact-content-num-box {
+    width: 40%;
+    min-width: 400px;
+    margin: 0 auto;
+
+}
+
+.container-contact-content-num-box3 {
+    width: 82%;
+}
+
+.container-contact-content-num-box1 {
+    width: 40%;
+
+}
+
+.container-contact-content-num-box2 {
+    width: 40%;
+}
+
+.container-contact-content-num-box4 {
+    font-size: 20px;
+    padding: 10px 10px;
+    background-color: #1e272e;
+    color: white;
+    border: none;
+    text-align: right;
+    margin: 3% 0;
+    ;
+}
+
+.container-contact-content-num-box4:hover {
+    background-color: #b2bec3;
+    color: #1e272e;
+    cursor: pointer;
+}
+
+/* End container-contact */
+
+/* Start of container-pic */
+
+.container-pic {
+    width: 100%;
+}
+
+.container-pic-content {
+    width: 100%;
+    height: 900px;
+}
+
+.container-pic-content img {
+    width: 100%;
+    height: 900px;
+}
+
+/* End of container-pic */

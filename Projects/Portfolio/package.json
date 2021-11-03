@@ -20,7 +20,7 @@
     "mongoose": "^5.10.7",
     "mongoose-aggregate-paginate-v2": "^1.0.42",
     "serve": "^11.3.2",
-    "validator": "^13.1.17"
+    "validator": "^13.7.0"
   },
   "devDependencies": {
     "eslint": "^7.10.0",
